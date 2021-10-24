@@ -91,7 +91,11 @@
 }
 
 .container .content .quees .queescontent {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
 }
 
 .container .content .quees .queescontent h2 {
@@ -105,7 +109,8 @@
 .container .content .quees .queescontent p {
   font-size: 1.7rem;
   margin: 0 0 40px 0;
-  width: 70rem;
+  text-align: center;
+  width: 80%;
   color: #fff;
   font-family: 'Comfortaa', cursive;
 }
