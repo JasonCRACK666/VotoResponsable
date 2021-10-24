@@ -1,0 +1,298 @@
+.container .navBar {
+  display: flex;
+  height: 5rem;
+  align-items: center;
+  justify-content: space-between;
+  background: #151515;
+}
+
+/* ---NAVBAR--- */
+.container .navBar .navLogo {
+  margin-left: 4rem;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 25px;
+  color: #fff;
+}
+
+.container .navBar .navLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4rem;
+  list-style: none;
+}
+
+.container .navBar .navLinks li {
+  margin-left: 2rem;
+}
+
+.container .navBar .navLinks li a {
+  text-decoration: none;
+  font-size: 18px;
+  font-family: 'Comfortaa', cursive;
+  color: #fff;
+}
+
+/* .container .navBar .navLinks li a:hover {
+  
+} */
+
+/* ---LAYOUT--- */
+.container .content .layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.container .content .layout .contentitle {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #151515;
+  backdrop-filter: opacity(80%);
+  padding: 5px;
+  margin: 0;
+  height: 210px;
+  border-radius: 20px;
+}
+
+.container .content .layout .contentitle h1 {
+  width: 14em;
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  color: #fff;
+  padding: 30px;
+  opacity: 100%;
+}
+
+.container .content .layout img {
+  width: 100%;
+  height: 90vh;
+}
+
+/* ¿QUÉ ES UN VOTO RESPONSABLE? */
+.container .content .quees {
+  background: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container .content .quees img {
+  width: 200px;
+  border-radius: 100%;
+  height: 200px;
+  margin-top: 40px;
+}
+
+.container .content .quees .queescontent {
+  text-align: center;
+}
+
+.container .content .quees .queescontent h2 {
+  font-size: 3rem;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: 'Rajdhani', sans-serif;
+  color: #00E0FF;
+}
+
+.container .content .quees .queescontent p {
+  font-size: 1.7rem;
+  margin: 0 0 40px 0;
+  width: 70rem;
+  color: #fff;
+  font-family: 'Comfortaa', cursive;
+}
+
+/* CONSEJOS PARA DAR UN VOTO RESPONSABLE */
+.container .content .consejos .ctitle {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container .content .consejos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.container .content .consejos .card {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  align-items: center;
+  margin-bottom: 10px;
+  background: #151515;
+  padding: 15px 5px;
+}
+
+.container .content .consejos .card img {
+  width: 300px;
+  display: none;
+}
+
+.container .content .consejos .card .cardbody h3 {
+  text-align: center;
+  font-size: 1.4rem;
+  margin: 10px;
+  color: #fff;
+  font-family: 'Comfortaa', cursive;
+}
+
+.container .content .consejos .card .cardbody p {
+  text-align: center;
+  width: 930px;
+  color: #fff;
+  font-size: 0.9rem;
+  font-family: 'Comfortaa', cursive;
+}
+
+/* MINISTERIO ESCOLAR */
+.container .content .muniscolar .ms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #151515;
+}
+
+.container .content .muniscolar .ms .queesms {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 60px;
+  padding: 40px 0;
+}
+
+.container .content .muniscolar .ms .queesms h3 {
+  margin: 0;
+  color: #00E0FF;
+  font-size: 1.5rem;
+  font-family:'Montserrat', sans-serif;
+}
+
+.container .content .muniscolar .ms .queesms p {
+  color: #fff;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+}
+
+.container .content .muniscolar .ms .integrantes {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 60px;
+  padding: 40px 0;
+}
+
+.container .content .muniscolar .ms .integrantes h3 {
+  margin: 0;
+  color: #00E0FF;
+  font-size: 1.5rem;
+  font-family:'Montserrat', sans-serif;
+}
+
+.container .content .muniscolar .ms .integrantes ul li {
+  color: #fff;
+  font-family: 'Comfortaa', cursive;
+  font-size: 20px;
+}
+
+/* Funcion del ministerio escolar */
+.container .content .muniscolar .funcion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.container .content .muniscolar .funcion h3 {
+  text-align: center;
+  font-family:'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  margin: 0 0 25px 0;
+  -webkit-box-reflect: below -13px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(255, 255, 255, 0.4)));
+}
+
+.container .content .muniscolar .funcion ul {
+  width: 80%;
+}
+
+.container .content .muniscolar .funcion ul li {
+  margin-bottom: 20px;
+  font-family: 'Comfortaa', cursive;
+}
+
+.container .content .muniscolar .funcion ul li h4 {
+  margin: 0;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.container .content .muniscolar .funcion ul li p {
+  margin: 0;
+}
+
+/* CREDITOS */
+.container .creditos {
+  background: #151515;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-family: 'Comfortaa', cursive;
+  padding: 25px 0 20px 0;
+}
+
+.container .creditos .names {
+  margin-right: 50px;
+}
+
+.container .creditos .names h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.container .creditos .names ol {
+  padding: 0;
+}
+
+.container .creditos .video {
+  margin-right: 40px;
+}
+
+.container .creditos .video ul {
+  padding: 0;
+}
+
+.container .creditos .video ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container .creditos .video ul a:hover {
+  text-decoration: underline;
+}
+
+.container .creditos .IE {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .creditos .IE img {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  margin-right: 10px;
+}
